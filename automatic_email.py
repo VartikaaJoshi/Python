@@ -23,7 +23,7 @@ def automatic_email():
     message = (f"Dear {user}, This is a test mail")
     s = smtplib.SMTP('smtp.gmail.com', 587)
     s.starttls()
-    s.login("Your Gmail Account", "Your App Password")
+    s.login("Your Gmail Account", "Your App Password") #personalize you details here (add your email and pass)
     s.sendmail('&&&&&&&&&&&', email, message)
     print("Email Sent!")
     
