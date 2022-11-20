@@ -28,7 +28,7 @@ for k in range(1, nr_numbers+1):
 print(password)
 
 #Hard Level - Order of characters randomised:
-#e.g. 4 letter, 2 symbol, 2 number = g^2jk8&P
+#for e.g. 4 letter, 2 symbol, 2 number = g^2jk8&P
 
 password_list= ""
 for i in range(1,nr_letters+1):
