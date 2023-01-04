@@ -14,7 +14,6 @@ def highest_bidder(bidding_record):
             winner = bidder
     print(f"Winner is the {winner} of the bid $ {highest_bid}")
             
-    
 
 while not auction_finished:
     
