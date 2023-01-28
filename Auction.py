@@ -18,6 +18,7 @@ def highest_bidder(bidding_record):
 while not auction_finished:
     
     name = input("What is your name?: ")
+    
     bid = int(input("Please enter your bid: $"))
     auction_dictionary[name] = bid
     other_auctions = input("Is there more people? Type yes or no: ").lower()
