@@ -26,4 +26,5 @@ while not auction_finished:
         auction_finished = True
         highest_bidder(auction_dictionary)
     elif other_auctions == "yes":
+        
         clear()
