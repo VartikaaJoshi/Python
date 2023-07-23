@@ -7,6 +7,7 @@ shift = int(input("Type the shift number:\n"))
 
 
 #TODO-1: Create a function called 'encrypt' that takes the 'text' and 'shift' as inputs.
+
 def encrypt(plain_text, shift_amount):
  
   cipher_text = ""
